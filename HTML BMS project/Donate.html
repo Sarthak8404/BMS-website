@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body{
+    background-color: rgb(234, 195, 201);
+}
+
+
+
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    /* border:  6px solid red; */
+
+
+}
+
+.item1{
+    text-align: center;
+    padding: 5px;
+    border: 5px solid rgb(207, 157, 166);
+    margin: 3px;
+    height: 300px;
+}
+.item2{
+    text-align: center;
+    padding: 5px;
+    border: 5px solid rgb(207, 157, 166);
+    margin: 3px;
+    height: 300px;
+}
+.item3{
+    text-align: center;
+    padding: 5px;
+    border: 5px solid rgb(207, 157, 166);
+    margin: 3px;
+    height: 300px;
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <hr>
+    <h1><center>My Donation</center></h1> 
+    <h2>Frequency:</h2>
+    <button>One Time</button> <button>Monthly</button>  
+    <h2>I want to give-</h2>
+    <button>$50</button> <button>$100</button> <button>$250</button> 
+    <br>
+    <br>
+
+        <!----------------    Form start       ----------------------->
+
+    <form>
+        <div>
+          Enter Your Amount:  <input type="text" name="Money" autocomplete="on">                                                                                            
+        </div>
+        <br>
+        <br>
+    <!-- <h3>I want to support:</h3> -->
+    <label for="support">I want to support:</label>
+    <select name="support">
+    <option value="1">Where it is needed most</option>
+    <option value="2">Disaster relief</option>
+    <option value="3">Your local Releif centre</option>
+    <option value="4">Blood services</option>
+    </select>
+    </form>
+    <br>
+
+            <!-------------     Form end      -------------------- -->
+
+
+
+                <!------------------- Grid start        -------------------->
+
+
+
+    <div class="container">
+
+
+        <!--............ first container ..............-->
+
+        <div class="item1"><H1> Donate by Phone</H1>
+        <h2>To donate by check or to a specific cause, please complete this donation form by printing and mailing to:
+
+ 
+
+            American Red Cross 
+            PO Box 37839
+            Boone, IA 50037-0839
+            
+            Print Donation Form</h2></div>
+
+
+            <!--............... Second container ............-->
+
+
+        <div class="item2"><H1> Donate by Mail</H1>
+        <h2>To donate by phone or to get assistance with your donation, please contact us at 1-800-HELP NOW (1-800-435-7669).
+
+
+            You can also reach us at:
+            Español: 1-800-435-7669
+            TDD Operator: 1-800-220-4095</h2></div>
+
+
+            <!------------ third container ------------->
+
+
+
+        <div class="item3"><H1>Other way to donate</H1><h2>1. Donate through your Amazon Alexa device. 
+
+ 
+
+            2. Give stock or mututal funds, wire funds to the Red Cross or make an ACH transfer. 
+            
+             
+            
+            3. Recommend a grant from your Donor Advised Fund. </h2></div>
+    </div>
+    
+
+</body>
+</html>

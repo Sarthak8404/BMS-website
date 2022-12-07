@@ -1,0 +1,112 @@
+
+#homevideo{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 28s;
+    border-bottom: 70px;
+}
+#nav {
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: "Neuton",serif;
+    line-height: 50px;
+
+}
+#nav .header-list {
+    flex: 1;
+    text-align: right;
+    font-family: "Neuton",serif;
+}
+.header-list ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+}
+.header-list ul li a{
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Verdana", cursive;
+}
+.header-list ul li::after {
+    content: "";
+    height: 2px;
+    background: #cd5c5c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    width: 0%;
+}
+.header-list ul li:hover::after{
+    width: 100%;
+}
+.text-box {
+    width: 80%;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: "Neuton", serif;
+    line-height: 50px;
+    /* border: 15px; */
+}
+.text-box h1{
+    font-size: 70px;
+    font-family: "Neuton",serif;
+    letter-spacing: 8px;
+    /* border-bottom: 8px; */
+}
+@media only screen and (max-width: 1000px) {
+    #homevideo{
+        height: 100%;
+        width: 100%;
+
+    }
+}
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    color: rgb(88,87,87);
+    font-size:20px;
+    font-weight: 300;
+    padding: 10px;
+    line-height: 20px;
+}
+.about-col{
+    transition: transform 1s;
+    width: 25%;
+    display: inline-block;
+    box-shadow: rgba(50,48,48,0,397) 0px 7px 29px 0px;
+    border-radius: 20px;
+    position: relative;
+    background: white;
+    margin: 3%;
+}
+
+body{
+    border-style: solid;
+    margin: 5px;
+    font-family: "Neuton",serif;
+    
+}
+a{
+    cursor:pointer
+}
